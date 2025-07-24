@@ -19,7 +19,7 @@ export default function portfolio() {
                   className="main-img w-100 rounded-4  "
                 />
                 <img
-                  src="/image/Screenshot 2025-07-23 030810.png"
+                  src="/image/errorrrr.png"
                   className="hover-img w-100 rounded-4 "
                 />
               </div>
@@ -32,7 +32,7 @@ export default function portfolio() {
                   className="main-img w-100 rounded-4 "
                 />
                 <img
-                  src="/image/Screenshot 2025-07-23 030810.png"
+                  src="/image/errorrrr.png"
                   className="hover-img w-100 rounded-4 "
                 />
               </div>
@@ -45,7 +45,7 @@ export default function portfolio() {
                   className="main-img w-100 rounded-4 "
                 />
                 <img
-                  src="/image/Screenshot 2025-07-23 030810.png"
+                  src="/image/errorrrr.png"
                   className="hover-img w-100 rounded-4 "
                 />
               </div>
@@ -57,7 +57,7 @@ export default function portfolio() {
                   className="main-img w-100 rounded-4 "
                 />
                 <img
-                  src="/image/Screenshot 2025-07-23 030810.png"
+                  src="/image/errorrrr.png"
                   className="hover-img w-100 rounded-4 "
                 />
               </div>
@@ -70,7 +70,7 @@ export default function portfolio() {
                   className="main-img w-100 rounded-4 "
                 />
                 <img
-                  src="/image/Screenshot 2025-07-23 030810.png"
+                  src="/image/errorrrr.png"
                   className="hover-img w-100 rounded-4 "
                 />
               </div>
@@ -83,7 +83,7 @@ export default function portfolio() {
                   className="main-img w-100 rounded-4 "
                 />
                 <img
-                  src="/image/Screenshot 2025-07-23 030810.png"
+                  src="/image/errorrrr.png"
                   className="hover-img w-100 rounded-4 "
                 />
               </div>
