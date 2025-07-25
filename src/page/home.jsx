@@ -1,9 +1,13 @@
 import React from "react";
 import Separator from "../Component/Separator";
+import { Helmet } from "react-helmet";
 
 export default function Hero() {
   return (
     <>
+      <Helmet>
+        <title> Home</title>
+      </Helmet>
       <div className="hero-section text-center py-5 mt-5 text-white bg-teal">
         <div className="pt-5 m-5 image-card">
           <img
@@ -18,7 +22,9 @@ export default function Hero() {
         </h1>
         <Separator />
 
-        <p className="mt-3 fs-6 mb-5">Graphic Artist - Web Designer - Illustrator</p>
+        <p className="mt-3 fs-6 mb-5">
+          Graphic Artist - Web Designer - Illustrator
+        </p>
       </div>
     </>
   );

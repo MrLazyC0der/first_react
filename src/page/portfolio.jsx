@@ -1,9 +1,17 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import Separator from "../Component/Separator";
+import image1 from "../image/poert1.png";
+import image2 from "../image/port2.png";
+import image3 from "../image/port3.png";
+import hover from "../image/hover.png";
 
-export default function portfolio() {
+export default function Protfolio() {
   return (
     <>
+      <Helmet>
+        <title> Protfolio</title>
+      </Helmet>
       <div className="padding-t-90px  ">
         <div className=" container">
           <h1 className="text-center text-uppercase my-3 py-2 ">
@@ -14,78 +22,42 @@ export default function portfolio() {
           <div className="row py-5">
             <div className="col-md-4  ">
               <div className=" image-container my-4 rounded ">
-                <img
-                  src="/image/poert1.png"
-                  className="main-img w-100 rounded-4  "
-                />
-                <img
-                  src="/image/errorrrr.png"
-                  className="hover-img w-100 rounded-4 "
-                />
+                <img src={image1} className="main-img w-100 rounded-4  " />
+                <img src={hover} className="hover-img w-100 rounded-4 " />
               </div>
             </div>
 
             <div className="col-md-4  ">
               <div className=" image-container my-4 rounded ">
-                <img
-                  src="/image/port2.png"
-                  className="main-img w-100 rounded-4 "
-                />
-                <img
-                  src="/image/errorrrr.png"
-                  className="hover-img w-100 rounded-4 "
-                />
+                <img src={image2} className="main-img w-100 rounded-4 " />
+                <img src={hover} className="hover-img w-100 rounded-4 " />
               </div>
             </div>
 
             <div className="col-md-4  ">
               <div className=" image-container my-4 rounded ">
-                <img
-                  src="/image/port3.png"
-                  className="main-img w-100 rounded-4 "
-                />
-                <img
-                  src="/image/errorrrr.png"
-                  className="hover-img w-100 rounded-4 "
-                />
+                <img src={image3} className="main-img w-100 rounded-4 " />
+                <img src={hover} className="hover-img w-100 rounded-4 " />
               </div>
             </div>
             <div className="col-md-4  ">
               <div className=" image-container my-4 rounded ">
-                <img
-                  src="/image/poert1.png"
-                  className="main-img w-100 rounded-4 "
-                />
-                <img
-                  src="/image/errorrrr.png"
-                  className="hover-img w-100 rounded-4 "
-                />
+                <img src={image1} className="main-img w-100 rounded-4 " />
+                <img src={hover} className="hover-img w-100 rounded-4 " />
               </div>
             </div>
 
             <div className="col-md-4  ">
               <div className=" image-container my-4 rounded ">
-                <img
-                  src="/image/port2.png"
-                  className="main-img w-100 rounded-4 "
-                />
-                <img
-                  src="/image/errorrrr.png"
-                  className="hover-img w-100 rounded-4 "
-                />
+                <img src={image2} className="main-img w-100 rounded-4 " />
+                <img src={hover} className="hover-img w-100 rounded-4 " />
               </div>
             </div>
 
             <div className="col-md-4  ">
               <div className=" image-container my-4 rounded ">
-                <img
-                  src="/image/port3.png"
-                  className="main-img w-100 rounded-4 "
-                />
-                <img
-                  src="/image/errorrrr.png"
-                  className="hover-img w-100 rounded-4 "
-                />
+                <img src={image3} className="main-img w-100 rounded-4 " />
+                <img src={hover} className="hover-img w-100 rounded-4 " />
               </div>
             </div>
           </div>

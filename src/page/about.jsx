@@ -1,9 +1,13 @@
 import React from "react";
 import Separator from "../Component/Separator";
+import { Helmet } from "react-helmet";
 
 export default function about() {
   return (
     <>
+      <Helmet>
+        <title> About</title>
+      </Helmet>
       <div className="padding-t-90px my-about ">
         <div className=" container-md">
           <h1 className="text-center text-uppercase text-white">
